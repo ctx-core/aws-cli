@@ -7,7 +7,7 @@
 	"types": "lib.ts",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ctx-core/ctx-core.git"
+		"url": "https://github.com/ctx-core/aws-cli.git"
 	},
 	"keywords": [
 		"ctx-core",
@@ -17,9 +17,9 @@
 	"author": "Brian Takita",
 	"license": "Apache-2.0",
 	"bugs": {
-		"url": "https://github.com/ctx-core/ctx-core/issues"
+		"url": "https://github.com/ctx-core/aws-cli/issues"
 	},
-	"homepage": "https://github.com/ctx-core/ctx-core#readme",
+	"homepage": "https://github.com/ctx-core/aws-cli#readme",
 	"publishConfig": {
 		"access": "public"
 	},
