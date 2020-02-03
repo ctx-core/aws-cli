@@ -77,7 +77,7 @@ export async function cli__cloudformation_delete_stack(
 			h1__dfn__flag__h0__value,
 			a1__cancel)
 	return _cmd__spawn(
-		'aws',
+		'aws2',
 		['cloudformation', 'delete-stack', ...a1__arg__default__pick]
 	)
 }
@@ -117,7 +117,7 @@ export async function cli__cloudformation_deploy(
 			h1__dfn__flag__h0__value,
 			a1__cancel)
 	return _cmd__spawn(
-		'aws',
+		'aws2',
 		['cloudformation', 'deploy', ...a1__arg__default__pick]
 	)
 }
@@ -152,7 +152,7 @@ export async function cli__cloudformation_describe_stack_events(
 			h1__dfn__flag__h0__value,
 			a1__cancel)
 	return _cmd__spawn(
-		'aws',
+		'aws2',
 		['cloudformation', 'describe-stack-events', ...a1__arg__default__pick]
 	)
 }
@@ -187,7 +187,7 @@ export async function cli__cloudformation_describe_stacks(
 			h1__dfn__flag__h0__value,
 			a1__cancel)
 	return _cmd__spawn(
-		'aws',
+		'aws2',
 		['cloudformation', 'describe-stacks', ...a1__arg__default__pick]
 	)
 }
@@ -222,7 +222,7 @@ export async function cli__cloudformation_package(
 			h1__dfn__flag__h0__value,
 			a1__cancel)
 	return _cmd__spawn(
-		'aws',
+		'aws2',
 		['cloudformation', 'package', ...a1__arg__default__pick]
 	)
 }
@@ -259,7 +259,7 @@ export async function cli__logs__describe_log_groups(
 			h1__dfn__flag__h0__value,
 			a1__cancel)
 	return _cmd__spawn(
-		'aws',
+		'aws2',
 		['logs', 'describe-log-groups', ...a1__arg__default__pick]
 	)
 }
@@ -299,7 +299,7 @@ export async function cli__logs__describe_log_streams(
 			h1__dfn__flag__h0__value,
 			a1__cancel)
 	return _cmd__spawn(
-		'aws',
+		'aws2',
 		['logs', 'describe-log-streams', ...a1__arg__default__pick]
 	)
 }
@@ -336,7 +336,7 @@ export async function cli__logs__get_log_events(
 			h1__dfn__flag__h0__value,
 			a1__cancel)
 	return _cmd__spawn(
-		'aws',
+		'aws2',
 		['logs', 'get-log-events', ...a1__arg__default__pick]
 	)
 }
