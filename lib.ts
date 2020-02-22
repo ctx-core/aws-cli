@@ -26,12 +26,15 @@ export function _env_name(a1__arg) {
 		|| 'development'
 	return env_name
 }
-export function _cmd__spawn(cmd_name, argv) {
-	const cmd = spawn(cmd_name, argv)
+export function pipe__stdout_and_stderr(cmd) {
 	cmd.stdout.pipe(process.stdout)
 	cmd.stderr.pipe(process.stderr)
-	return new Promise((resolve, reject) => {
-		cmd.on('close', code => {
+}
+export function spawn__pipe(cmd_name, argv, pipe = pipe__stdout_and_stderr) {
+	const cmd = spawn(cmd_name, argv)
+	pipe(cmd)
+	return new Promise((resolve, reject)=>{
+		cmd.on('close', code=>{
 			if (code) {
 				reject(code)
 			} else {
@@ -40,6 +43,7 @@ export function _cmd__spawn(cmd_name, argv) {
 		})
 	})
 }
+export const _cmd__spawn = spawn__pipe
 export async function run__cli(fn) {
 	try {
 		const code = await fn()
@@ -76,7 +80,7 @@ export async function cli__cloudformation_delete_stack(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'aws2',
 		['cloudformation', 'delete-stack', ...a1__arg__default__pick]
 	)
@@ -116,7 +120,7 @@ export async function cli__cloudformation_deploy(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'aws2',
 		['cloudformation', 'deploy', ...a1__arg__default__pick]
 	)
@@ -151,7 +155,7 @@ export async function cli__cloudformation_describe_stack_events(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'aws2',
 		['cloudformation', 'describe-stack-events', ...a1__arg__default__pick]
 	)
@@ -186,7 +190,7 @@ export async function cli__cloudformation_describe_stacks(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'aws2',
 		['cloudformation', 'describe-stacks', ...a1__arg__default__pick]
 	)
@@ -221,7 +225,7 @@ export async function cli__cloudformation_package(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'aws2',
 		['cloudformation', 'package', ...a1__arg__default__pick]
 	)
@@ -258,7 +262,7 @@ export async function cli__logs__describe_log_groups(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'aws2',
 		['logs', 'describe-log-groups', ...a1__arg__default__pick]
 	)
@@ -298,7 +302,7 @@ export async function cli__logs__describe_log_streams(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'aws2',
 		['logs', 'describe-log-streams', ...a1__arg__default__pick]
 	)
@@ -335,7 +339,7 @@ export async function cli__logs__get_log_events(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'aws2',
 		['logs', 'get-log-events', ...a1__arg__default__pick]
 	)
@@ -373,7 +377,7 @@ export async function cli__sam_build(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'sam',
 		['build', ...a1__arg__default__pick]
 	)
@@ -418,7 +422,7 @@ export async function cli__sam_local_start_api(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'sam',
 		['local', 'start-api', ...a1__arg__default__pick]
 	)
@@ -448,7 +452,7 @@ export async function cli__sam_package(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return _cmd__spawn(
+	return spawn__pipe(
 		'sam',
 		['package', ...a1__arg__default__pick]
 	)
