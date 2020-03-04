@@ -1,4 +1,5 @@
-import { spawn__pipe } from '@ctx-core/child_process'
+import { spawn } from 'child_process'
+import { pipe__child_process } from '@ctx-core/child_process'
 import {
 	pick__a1__arg,
 	_h__flag__pick,
@@ -62,9 +63,11 @@ export async function cli__cloudformation_delete_stack(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'aws2',
-		['cloudformation', 'delete-stack', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'aws2',
+			['cloudformation', 'delete-stack', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
@@ -102,9 +105,11 @@ export async function cli__cloudformation_deploy(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'aws2',
-		['cloudformation', 'deploy', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'aws2',
+			['cloudformation', 'deploy', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
@@ -137,9 +142,11 @@ export async function cli__cloudformation_describe_stack_events(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'aws2',
-		['cloudformation', 'describe-stack-events', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'aws2',
+			['cloudformation', 'describe-stack-events', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
@@ -172,9 +179,11 @@ export async function cli__cloudformation_describe_stacks(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'aws2',
-		['cloudformation', 'describe-stacks', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'aws2',
+			['cloudformation', 'describe-stacks', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
@@ -207,9 +216,11 @@ export async function cli__cloudformation_package(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'aws2',
-		['cloudformation', 'package', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'aws2',
+			['cloudformation', 'package', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
@@ -244,9 +255,11 @@ export async function cli__logs__describe_log_groups(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'aws2',
-		['logs', 'describe-log-groups', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'aws2',
+			['logs', 'describe-log-groups', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
@@ -284,9 +297,11 @@ export async function cli__logs__describe_log_streams(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'aws2',
-		['logs', 'describe-log-streams', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'aws2',
+			['logs', 'describe-log-streams', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
@@ -321,9 +336,11 @@ export async function cli__logs__get_log_events(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'aws2',
-		['logs', 'get-log-events', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'aws2',
+			['logs', 'get-log-events', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
@@ -359,9 +376,11 @@ export async function cli__sam_build(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'sam',
-		['build', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'sam',
+			['build', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
@@ -404,9 +423,11 @@ export async function cli__sam_local_start_api(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'sam',
-		['local', 'start-api', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'sam',
+			['local', 'start-api', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
@@ -434,9 +455,11 @@ export async function cli__sam_package(
 			a1__arg,
 			h1__dfn__flag__h0__value,
 			a1__cancel)
-	return spawn__pipe(
-		'sam',
-		['package', ...a1__arg__default__pick]
+	return pipe__child_process(
+		spawn(
+			'sam',
+			['package', ...a1__arg__default__pick]
+		)
 	)
 }
 //endregion
