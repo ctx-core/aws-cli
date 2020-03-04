@@ -1,9 +1,6 @@
 export declare function _value__flag(a1__arg: any, ...a1__flag: any[]): any;
 export declare function _stage(a1__arg: any): any;
 export declare function _env_name(a1__arg: any): any;
-export declare function pipe__stdout_and_stderr(cmd: any): void;
-export declare function spawn__pipe(cmd_name: any, argv: any, pipe?: typeof pipe__stdout_and_stderr): Promise<unknown>;
-export declare const _cmd__spawn: typeof spawn__pipe;
 export declare function run__cli(fn: any): Promise<void>;
 export declare function _a1__arg__cloudformation_delete_stack(a1__arg: any, h1__dfn__flag__h0__value?: {}, a1__cancel?: string[]): any;
 export declare function cli__cloudformation_delete_stack(a1__arg: any, h1__dfn__flag__h0__value?: {}, a1__cancel?: string[]): Promise<unknown>;

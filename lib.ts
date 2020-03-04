@@ -1,4 +1,4 @@
-import { spawn } from 'child_process'
+import { spawn__pipe } from '@ctx-core/child_process'
 import {
 	pick__a1__arg,
 	_h__flag__pick,
@@ -26,24 +26,6 @@ export function _env_name(a1__arg) {
 		|| 'development'
 	return env_name
 }
-export function pipe__stdout_and_stderr(cmd) {
-	cmd.stdout.pipe(process.stdout)
-	cmd.stderr.pipe(process.stderr)
-}
-export function spawn__pipe(cmd_name, argv, pipe = pipe__stdout_and_stderr) {
-	const cmd = spawn(cmd_name, argv)
-	pipe(cmd)
-	return new Promise((resolve, reject)=>{
-		cmd.on('close', code=>{
-			if (code) {
-				reject(code)
-			} else {
-				resolve(code)
-			}
-		})
-	})
-}
-export const _cmd__spawn = spawn__pipe
 export async function run__cli(fn) {
 	try {
 		const code = await fn()
