@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/aws-cli",
-	"version": "6.0.37",
+	"version": "6.0.38",
 	"description": "ctx-core aws cli helpers",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -26,8 +26,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/child_process": "^2.2.11",
-		"@ctx-core/cli-args": "^3.1.66",
-		"@ctx-core/object": "^9.0.5"
+		"@ctx-core/cli-args": "^3.1.67",
+		"@ctx-core/object": "^9.0.6"
 	},
 	"gitHead": "dd706d747e25544be8db11bd250895d220e85aa2"
 }
