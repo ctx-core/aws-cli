@@ -6,14 +6,14 @@ export async function sam_build_cli(
 	value_h_flag_dfn_h = {},
 	cancel_a1 = ['--help']
 ):Promise<unknown> {
-	const a1__arg__default__pick =
+	const pick_default_arg_a1 =
 		_sam_build_arg_a1(
 			arg_a1, value_h_flag_dfn_h, cancel_a1
 		)
 	return pipe__child_process(
 		spawn(
 			'sam',
-			['build', ...a1__arg__default__pick]
+			['build', ...pick_default_arg_a1]
 		)
 	)
 }
