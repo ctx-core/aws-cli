@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 import {
-	run__cli,
-	cli__sam_local_start_api,
+	cli_run,
+	sam_local_start_api_cli,
 } from '@ctx-core/aws-cli'
-run__cli(async () => {
-	const a1__arg = process.argv.slice(2)
-	return cli__sam_local_start_api(a1__arg, {
+cli_run(async () => {
+	const arg_a1 = process.argv.slice(2)
+	return sam_local_start_api_cli(arg_a1, {
 		'--template': 'stack-template.yaml',
 		'--port': process.env.PORT,
 	})

@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 import {
-	run__cli,
-	cli__sam_build,
+	cli_run,
+	sam_build_cli,
 } from '@ctx-core/aws-cli'
-run__cli(async () => {
-	const a1__arg = process.argv.slice(2)
-	return cli__sam_build(a1__arg, {
+cli_run(async () => {
+	const arg_a1 = process.argv.slice(2)
+	return sam_build_cli(arg_a1, {
 		'--template': 'stack-template.yaml',
 	})
 })
