@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/aws-cli",
-	"version": "7.0.13",
+	"version": "7.0.14",
 	"description": "ctx-core aws cli helpers",
 	"main": "./index.js",
 	"module": "./index.js",
