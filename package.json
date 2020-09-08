@@ -25,7 +25,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/child_process": "^2.4.3",
+		"@ctx-core/child_process": "^2.4.4",
 		"@ctx-core/cli-args": "^4.1.4",
 		"@ctx-core/object": "^10.0.2"
 	},
