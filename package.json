@@ -29,5 +29,8 @@
 		"@ctx-core/cli-args": "^4.1.7",
 		"@ctx-core/object": "^10.0.4"
 	},
-	"gitHead": "f816a6cd796eeb888fc442c99a0ce8b0f1beab7f"
+	"gitHead": "63de2bdf349aa13b17ed6a482756812fc904187c",
+	"scripts": {
+		"exec": "$@"
+	}
 }
