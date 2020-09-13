@@ -2,35 +2,35 @@
 	"name": "@ctx-core/aws-cli",
 	"version": "7.0.19",
 	"description": "ctx-core aws cli helpers",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/aws-cli.git"
-	},
 	"keywords": [
 		"ctx-core",
 		"aws",
 		"aws2",
 		"cli"
 	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
+	"homepage": "https://github.com/ctx-core/aws-cli#readme",
 	"bugs": {
 		"url": "https://github.com/ctx-core/aws-cli/issues"
 	},
-	"homepage": "https://github.com/ctx-core/aws-cli#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/aws-cli.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"exec": "$@"
+	},
+	"dependencies": {
+		"@ctx-core/child_process": "workspace:*",
+		"@ctx-core/cli-args": "workspace:*",
+		"@ctx-core/object": "workspace:*"
+	},
 	"publishConfig": {
 		"access": "public"
 	},
-	"dependencies": {
-		"@ctx-core/child_process": "^2.4.6",
-		"@ctx-core/cli-args": "^4.1.7",
-		"@ctx-core/object": "^10.0.4"
-	},
-	"gitHead": "63de2bdf349aa13b17ed6a482756812fc904187c",
-	"scripts": {
-		"exec": "$@"
-	}
+	"gitHead": "63de2bdf349aa13b17ed6a482756812fc904187c"
 }
