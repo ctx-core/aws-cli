@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/aws-cli",
-  "version": "7.0.21",
+  "version": "8.0.0",
   "description": "ctx-core aws cli helpers",
   "keywords": [
     "ctx-core",

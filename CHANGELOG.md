@@ -1,5 +1,18 @@
 # @ctx-core/aws-cli
 
+## 8.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@3.0.0
+  - @ctx-core/cli-args@6.0.0
+  - @ctx-core/object@12.0.0
+
 ## 7.0.21
 
 ### Patch Changes
