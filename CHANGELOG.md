@@ -1,5 +1,14 @@
 # @ctx-core/aws-cli
 
+## 8.0.2
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@6.0.2
+  - @ctx-core/object@12.0.1
+
 ## 8.0.1
 
 ### Patch Changes
