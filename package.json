@@ -30,6 +30,9 @@
 		"@ctx-core/cli-args": "workspace:*",
 		"@ctx-core/object": "workspace:*"
 	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
 	"publishConfig": {
 		"access": "public"
 	}
