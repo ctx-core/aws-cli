@@ -22,8 +22,8 @@
 	"module": "./index.js",
 	"types": "./index.ts",
 	"scripts": {
-		"exec": "$@",
-		"build": "npm run compile"
+		"build": "npm run compile",
+		"exec": "$@"
 	},
 	"dependencies": {
 		"@ctx-core/child_process": "workspace:*",
