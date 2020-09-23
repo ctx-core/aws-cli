@@ -1,5 +1,11 @@
 # @ctx-core/aws-cli
 
+## 8.0.11
+
+### Patch Changes
+
+- version bump to sync with npm
+
 ## 8.0.10
 
 ### Patch Changes
