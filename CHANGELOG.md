@@ -1,5 +1,19 @@
 # @ctx-core/aws-cli
 
+## 8.0.34
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@3.0.6
+  - @ctx-core/object@15.0.4
+  - @ctx-core/cli-args@6.1.23
+
 ## 8.0.33
 
 ### Patch Changes
