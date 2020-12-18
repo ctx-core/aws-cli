@@ -1,5 +1,12 @@
 # @ctx-core/aws-cli
 
+## 8.0.37
+
+### Patch Changes
+
+- @ctx-core/cli-args@6.1.26
+- @ctx-core/object@15.0.6
+
 ## 8.0.36
 
 ### Patch Changes
