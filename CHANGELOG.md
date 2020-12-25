@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 8.0.41
+
+### Patch Changes
+
+- - .rush
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@3.0.7
+  - @ctx-core/cli-args@6.1.30
+  - @ctx-core/object@15.0.10
+
 ## 8.0.40
 
 ### Patch Changes
