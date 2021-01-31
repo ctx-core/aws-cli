@@ -26,9 +26,9 @@
 		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/child_process": "^3.0.8",
-		"@ctx-core/cli-args": "^6.1.44",
-		"@ctx-core/object": "^16.1.0"
+		"@ctx-core/child_process": "workspace:^3.0.8",
+		"@ctx-core/cli-args": "workspace:^6.1.44",
+		"@ctx-core/object": "workspace:^16.1.0"
 	},
 	"devDependencies": {
 		"typescript": "^4.1.3"
