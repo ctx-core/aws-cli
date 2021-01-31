@@ -1,5 +1,18 @@
 # @ctx-core/aws-cli
 
+## 9.0.0
+
+### Major Changes
+
+- src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@4.0.0
+  - @ctx-core/cli-args@7.0.0
+  - @ctx-core/object@17.0.0
+
 ## 8.0.57
 
 ### Patch Changes
