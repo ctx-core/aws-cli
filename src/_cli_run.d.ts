@@ -1,2 +1,2 @@
-export declare function _cli_run(fn: any): Promise<void>;
-export declare const run_cli: typeof _cli_run;
+export declare function _cli_run(fn: () => number): Promise<void>;
+export { _cli_run as run_cli };

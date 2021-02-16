@@ -1,4 +1,4 @@
-export async function _cli_run(fn) {
+export async function _cli_run(fn:()=>number) {
 	try {
 		const code = await fn()
 		process.exit(code)
@@ -7,4 +7,6 @@ export async function _cli_run(fn) {
 		process.exit(1)
 	}
 }
-export const run_cli = _cli_run
+export {
+	_cli_run as run_cli
+}

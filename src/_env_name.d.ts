@@ -1,1 +1,1 @@
-export declare function _env_name(arg_a1: any): string;
+export declare function _env_name(arg_a1: string[]): string;

@@ -1,5 +1,17 @@
 # @ctx-core/aws-cli
 
+## 9.0.12
+
+### Patch Changes
+
+- alias using export as
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.0.7
+  - @ctx-core/cli-args@7.1.0
+
 ## 9.0.11
 
 ### Patch Changes
