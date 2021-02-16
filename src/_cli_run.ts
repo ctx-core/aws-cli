@@ -1,4 +1,4 @@
-export async function _cli_run(fn:()=>number) {
+export async function _cli_run(fn:()=>Promise<number>) {
 	try {
 		const code = await fn()
 		process.exit(code)

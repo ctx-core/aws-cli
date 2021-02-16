@@ -1,5 +1,11 @@
 # @ctx-core/aws-cli
 
+## 9.0.13
+
+### Patch Changes
+
+- fix: \_cli_run: fn argument return type
+
 ## 9.0.12
 
 ### Patch Changes
