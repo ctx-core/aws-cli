@@ -1,7 +1,7 @@
-import { _default_arg_a1, param_dfn_type, pick_arg_a1 } from '@ctx-core/cli-args'
+import { _default_arg_a1, param_dfn_T, pick_arg_a1 } from '@ctx-core/cli-args'
 export function _cloudformation_deploy_arg_a1(
 	arg_a1:string[],
-	value_h_flag_dfn_h:Record<string, param_dfn_type> = {},
+	value_h_flag_dfn_h:Record<string, param_dfn_T> = {},
 	cancel_a1:string[] = ['help']
 ) {
 	return pick_arg_a1(
