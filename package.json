@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/aws-cli",
-	"version": "9.0.20",
+	"version": "9.0.21",
 	"description": "ctx-core aws cli helpers",
 	"keywords": [
 		"ctx-core",
@@ -27,8 +27,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/child_process": "workspace:^4.0.4",
-		"@ctx-core/cli-args": "workspace:^7.2.3",
-		"@ctx-core/object": "workspace:^17.2.0"
+		"@ctx-core/cli-args": "workspace:^7.2.4",
+		"@ctx-core/object": "workspace:^17.2.1"
 	},
 	"devDependencies": {
 		"typescript": "^4.2.2"
