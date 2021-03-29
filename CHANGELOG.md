@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 9.0.29
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@4.0.7
+  - @ctx-core/cli-args@7.2.12
+  - @ctx-core/object@17.4.2
+
 ## 9.0.28
 
 ### Patch Changes
