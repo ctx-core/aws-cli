@@ -1,5 +1,13 @@
 # @ctx-core/aws-cli
 
+## 9.0.33
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@7.2.16
+
 ## 9.0.32
 
 ### Patch Changes
