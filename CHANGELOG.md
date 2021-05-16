@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 9.1.2
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@4.1.2
+  - @ctx-core/cli-args@7.3.2
+  - @ctx-core/object@17.6.2
+
 ## 9.1.1
 
 ### Patch Changes
