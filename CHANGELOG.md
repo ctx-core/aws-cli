@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 9.2.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@4.2.1
+  - @ctx-core/cli-args@7.4.1
+  - @ctx-core/object@18.1.1
+
 ## 9.2.0
 
 ### Minor Changes
