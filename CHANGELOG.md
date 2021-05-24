@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 9.1.10
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@4.1.3
+  - @ctx-core/cli-args@7.3.10
+  - @ctx-core/object@18.0.6
+
 ## 9.1.9
 
 ### Patch Changes
