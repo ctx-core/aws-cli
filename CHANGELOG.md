@@ -1,5 +1,18 @@
 # @ctx-core/aws-cli
 
+## 9.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@4.2.0
+  - @ctx-core/cli-args@7.4.0
+  - @ctx-core/object@18.1.0
+
 ## 9.1.10
 
 ### Patch Changes
