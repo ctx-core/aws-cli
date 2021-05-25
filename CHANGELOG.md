@@ -1,5 +1,18 @@
 # @ctx-core/aws-cli
 
+## 9.3.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@4.3.0
+  - @ctx-core/cli-args@7.5.0
+  - @ctx-core/object@18.2.0
+
 ## 9.2.1
 
 ### Patch Changes
