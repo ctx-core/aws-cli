@@ -1,11 +1,11 @@
-import { _default_arg_a1, param_dfn_T, pick_arg_a1 } from '@ctx-core/cli-args'
-export function _sam_local_start_api_arg_a1(
-	arg_a1:string[],
+import { default_arg_a_, param_dfn_T, pick_arg_a } from '@ctx-core/cli-args'
+export function sam_local_start_api_arg_a_(
+	arg_a:string[],
 	value_h_flag_dfn:Record<string, param_dfn_T> = {},
-	cancel_a1:string[] = ['help']
+	cancel_a:string[] = ['help']
 ) {
-	return pick_arg_a1(
-		_default_arg_a1(arg_a1, value_h_flag_dfn, cancel_a1),
+	return pick_arg_a(
+		default_arg_a_(arg_a, value_h_flag_dfn, cancel_a),
 		'--host',
 		'-p, --port',
 		'-s, --static-dir',
@@ -28,5 +28,6 @@ export function _sam_local_start_api_arg_a1(
 	)
 }
 export {
-	_sam_local_start_api_arg_a1 as _a1__arg__sam_local_start_api
+	sam_local_start_api_arg_a_ as _sam_local_start_api_arg_a1,
+	sam_local_start_api_arg_a_ as _a1__arg__sam_local_start_api,
 }

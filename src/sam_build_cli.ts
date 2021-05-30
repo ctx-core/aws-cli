@@ -1,20 +1,20 @@
 import { spawn } from 'child_process'
 import { pipe_child_process } from '@ctx-core/child_process'
 import type { param_dfn_T } from '@ctx-core/cli-args'
-import { _sam_build_arg_a1 } from './_sam_build_arg_a1'
+import { sam_build_arg_a_ } from './sam_build_arg_a_'
 export async function sam_build_cli(
-	arg_a1:string[],
+	arg_a:string[],
 	value_h_flag_dfn:Record<string, param_dfn_T> = {},
-	cancel_a1:string[] = ['help']
+	cancel_a:string[] = ['help']
 ):Promise<unknown> {
-	const pick_default_arg_a1 =
-		_sam_build_arg_a1(
-			arg_a1, value_h_flag_dfn, cancel_a1
+	const pick_default_arg_a =
+		sam_build_arg_a_(
+			arg_a, value_h_flag_dfn, cancel_a
 		)
 	return pipe_child_process(
 		spawn(
 			'sam',
-			['build', ...pick_default_arg_a1]
+			['build', ...pick_default_arg_a]
 		)
 	)
 }

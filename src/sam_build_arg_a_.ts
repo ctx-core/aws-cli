@@ -1,11 +1,11 @@
-import { _default_arg_a1, param_dfn_T, pick_arg_a1 } from '@ctx-core/cli-args'
-export function _sam_build_arg_a1(
-	arg_a1:string[],
+import { default_arg_a_, param_dfn_T, pick_arg_a } from '@ctx-core/cli-args'
+export function sam_build_arg_a_(
+	arg_a:string[],
 	value_h_flag_dfn:Record<string, param_dfn_T> = {},
-	cancel_a1:string[] = ['help']
+	cancel_a:string[] = ['help']
 ):string[] {
-	return pick_arg_a1(
-		_default_arg_a1(arg_a1, value_h_flag_dfn, cancel_a1),
+	return pick_arg_a(
+		default_arg_a_(arg_a, value_h_flag_dfn, cancel_a),
 		'-b, --build-dir',
 		'-s, --base-dir',
 		'-u, --use-container',
@@ -19,4 +19,7 @@ export function _sam_build_arg_a1(
 		'--region',
 		'--help',
 	)
+}
+export {
+	sam_build_arg_a_ as _sam_build_arg_a1
 }

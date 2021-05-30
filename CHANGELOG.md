@@ -1,5 +1,20 @@
 # @ctx-core/aws-cli
 
+## 10.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@5.0.0
+  - @ctx-core/cli-args@8.0.0
+  - @ctx-core/object@19.0.0
+
 ## 9.3.1
 
 ### Patch Changes

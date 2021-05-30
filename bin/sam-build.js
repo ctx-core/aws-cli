@@ -4,8 +4,8 @@ import {
 	sam_build_cli,
 } from '@ctx-core/aws-cli'
 cli_run(async () => {
-	const arg_a1 = process.argv.slice(2)
-	return sam_build_cli(arg_a1, {
+	const arg_a = process.argv.slice(2)
+	return sam_build_cli(arg_a, {
 		'--template': 'stack-template.yaml',
 	})
 })
