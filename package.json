@@ -29,8 +29,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/child_process": "workspace:^5.0.0",
-		"@ctx-core/cli-args": "workspace:^8.0.10",
-		"@ctx-core/object": "workspace:^19.1.0"
+		"@ctx-core/cli-args": "workspace:^8.0.11",
+		"@ctx-core/object": "workspace:^19.1.1"
 	},
 	"devDependencies": {
 		"typescript": "^4.3.2"
