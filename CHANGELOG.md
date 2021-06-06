@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 10.0.3
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@5.0.1
+  - @ctx-core/cli-args@8.0.14
+  - @ctx-core/object@19.1.2
+
 ## 10.0.2
 
 ### Patch Changes
