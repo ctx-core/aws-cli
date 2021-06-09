@@ -30,7 +30,7 @@
 	"dependencies": {
 		"@ctx-core/child_process": "workspace:^5.0.2",
 		"@ctx-core/cli-args": "workspace:^8.0.19",
-		"@ctx-core/object": "workspace:^19.1.4"
+		"@ctx-core/object": "workspace:^19.1.5"
 	},
 	"devDependencies": {
 		"typescript": "^4.3.2"
