@@ -1,5 +1,18 @@
 # @ctx-core/aws-cli
 
+## 11.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@6.0.0
+  - @ctx-core/cli-args@9.0.0
+  - @ctx-core/object@20.0.0
+
 ## 10.0.8
 
 ### Patch Changes
