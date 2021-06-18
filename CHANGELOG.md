@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 11.0.2
+
+### Patch Changes
+
+- typescript: ^4.3.3 -> ^4.3.4
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@6.0.2
+  - @ctx-core/cli-args@9.0.4
+  - @ctx-core/object@20.0.3
+
 ## 11.0.1
 
 ### Patch Changes
