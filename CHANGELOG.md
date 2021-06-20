@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 11.0.4
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@6.0.6
+  - @ctx-core/cli-args@9.0.8
+  - @ctx-core/object@20.0.7
+
 ## 11.0.3
 
 ### Patch Changes
