@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 11.0.3
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@6.0.3
+  - @ctx-core/cli-args@9.0.5
+  - @ctx-core/object@20.0.4
+
 ## 11.0.2
 
 ### Patch Changes
