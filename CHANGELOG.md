@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 11.0.5
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@6.0.7
+  - @ctx-core/cli-args@9.0.9
+  - @ctx-core/object@20.0.8
+
 ## 11.0.4
 
 ### Patch Changes
