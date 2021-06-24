@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 11.0.7
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@6.0.8
+  - @ctx-core/cli-args@9.0.11
+  - @ctx-core/object@20.1.1
+
 ## 11.0.6
 
 ### Patch Changes
