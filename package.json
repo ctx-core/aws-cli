@@ -29,7 +29,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/child_process": "workspace:^6.0.9",
-		"@ctx-core/cli-args": "workspace:^9.0.16",
+		"@ctx-core/cli-args": "workspace:^9.0.17",
 		"@ctx-core/object": "workspace:^20.2.2"
 	},
 	"devDependencies": {
