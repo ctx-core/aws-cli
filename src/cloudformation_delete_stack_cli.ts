@@ -1,7 +1,7 @@
 import { spawn } from 'child_process'
 import { pipe_child_process } from '@ctx-core/child_process'
 import type { param_dfn_T } from '@ctx-core/cli-args'
-import { cloudformation_delete_stack_arg_a_fn } from './cloudformation_delete_stack_arg_a_fn'
+import { cloudformation_delete_stack_arg_a_fn } from './cloudformation_delete_stack_arg_a_fn.js'
 export async function cloudformation_delete_stack_cli(
 	arg_a:string[],
 	value_h_flag_dfn:Record<string, param_dfn_T> = {},

@@ -1,7 +1,7 @@
 import { spawn } from 'child_process'
 import { pipe_child_process } from '@ctx-core/child_process'
 import type { param_dfn_T } from '@ctx-core/cli-args'
-import { cloudformation_deploy_arg_a_ } from './cloudformation_deploy_arg_a_'
+import { cloudformation_deploy_arg_a_ } from './cloudformation_deploy_arg_a_.js'
 export async function cloudformation_deploy_cli(
 	arg_a:string[],
 	value_h_flag_dfn:Record<string, param_dfn_T> = {},
