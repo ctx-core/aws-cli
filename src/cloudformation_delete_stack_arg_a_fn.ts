@@ -1,11 +1,11 @@
 import { default_arg_a_, param_dfn_T, pick_arg_a } from '@ctx-core/cli-args'
 export function cloudformation_delete_stack_arg_a_fn(
 	arg_a:string[],
-	value_h_flag_dfn:Record<string, param_dfn_T> = {},
+	value_r_flag_dfn:Record<string, param_dfn_T> = {},
 	cancel_a:string[] = ['help']
-) {
+):string[] {
 	return pick_arg_a(
-		default_arg_a_(arg_a, value_h_flag_dfn, cancel_a),
+		default_arg_a_(arg_a, value_r_flag_dfn, cancel_a),
 		'--stack-name',
 		'--retain-resources',
 		'--role-arn',

@@ -6,7 +6,7 @@ export async function describe_log_groups_logs_cli(
 	arg_a:string[],
 	value_h_flag_dfn:Record<string, param_dfn_T> = {},
 	cancel_a:string[] = ['help']
-) {
+):Promise<number> {
 	const pick_default_arg_a =
 		describe_log_groups_logs_arg_a_(
 			arg_a,

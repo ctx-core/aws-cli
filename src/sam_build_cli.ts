@@ -6,7 +6,7 @@ export async function sam_build_cli(
 	arg_a:string[],
 	value_h_flag_dfn:Record<string, param_dfn_T> = {},
 	cancel_a:string[] = ['help']
-):Promise<unknown> {
+):Promise<number> {
 	const pick_default_arg_a =
 		sam_build_arg_a_(
 			arg_a, value_h_flag_dfn, cancel_a

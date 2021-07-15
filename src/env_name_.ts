@@ -1,5 +1,5 @@
 import { flag_value_ } from './flag_value_.js'
-export function env_name_(arg_a:string[]) {
+export function env_name_(arg_a:string[]):string {
 	const env_name =
 		flag_value_(arg_a, '--env-name')
 		|| process.env.NODE_ENV

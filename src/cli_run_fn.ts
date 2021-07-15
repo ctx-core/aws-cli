@@ -1,4 +1,4 @@
-export async function cli_run(fn:()=>Promise<number>) {
+export async function cli_run(fn:()=>Promise<number>):Promise<void> {
 	try {
 		const code = await fn()
 		process.exit(code)
