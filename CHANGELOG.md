@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 12.0.8
+
+### Patch Changes
+
+- fix: index.cjs: module.exports = require('./index.js')
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@7.0.7
+  - @ctx-core/cli-args@10.0.7
+  - @ctx-core/object@21.0.6
+
 ## 12.0.7
 
 ### Patch Changes
