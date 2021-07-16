@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 12.0.10
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@7.0.9
+  - @ctx-core/cli-args@10.0.9
+  - @ctx-core/object@21.0.8
+
 ## 12.0.9
 
 ### Patch Changes
