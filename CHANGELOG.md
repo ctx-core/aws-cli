@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 12.0.9
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@7.0.8
+  - @ctx-core/cli-args@10.0.8
+  - @ctx-core/object@21.0.7
+
 ## 12.0.8
 
 ### Patch Changes
