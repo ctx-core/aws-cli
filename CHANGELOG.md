@@ -1,5 +1,25 @@
 # @ctx-core/aws-cli
 
+## 12.0.12
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@7.0.11
+  - @ctx-core/cli-args@10.0.11
+  - @ctx-core/object@21.0.10
+
+## 12.0.11
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/child_process@7.0.10
+  - @ctx-core/cli-args@10.0.10
+  - @ctx-core/object@21.0.9
+
 ## 12.0.10
 
 ### Patch Changes
