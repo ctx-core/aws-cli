@@ -1,8 +1,5 @@
 #!/usr/bin/env node
-import {
-	cli_run,
-	sam_package_cli,
-} from '@ctx-core/aws-cli'
+import { cli_run, sam_package_cli, } from '../index.mjs'
 cli_run(async () => {
 	const arg_a = process.argv.slice(2)
 	return sam_package_cli(arg_a, {
