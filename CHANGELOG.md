@@ -1,5 +1,14 @@
 # @ctx-core/aws-cli
 
+## 12.0.29
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/child_process@7.0.25
+  - @ctx-core/cli-args@11.0.10
+
 ## 12.0.28
 
 ### Patch Changes
