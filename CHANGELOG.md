@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 12.0.33
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/child_process@7.0.29
+  - @ctx-core/cli-args@11.0.14
+  - @ctx-core/object@22.0.3
+
 ## 12.0.32
 
 ### Patch Changes
