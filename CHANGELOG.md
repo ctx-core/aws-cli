@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 12.0.31
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/child_process@7.0.27
+  - @ctx-core/cli-args@11.0.12
+  - @ctx-core/object@22.0.1
+
 ## 12.0.30
 
 ### Patch Changes
