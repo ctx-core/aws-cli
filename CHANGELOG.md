@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 12.0.36
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/child_process@7.0.32
+  - @ctx-core/cli-args@11.0.17
+  - @ctx-core/object@22.0.6
+
 ## 12.0.35
 
 ### Patch Changes
