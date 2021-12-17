@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 12.0.37
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/child_process@7.0.33
+  - @ctx-core/cli-args@11.0.18
+  - @ctx-core/object@22.0.7
+
 ## 12.0.36
 
 ### Patch Changes
