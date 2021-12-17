@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 12.0.38
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/child_process@7.0.34
+  - @ctx-core/cli-args@11.0.19
+  - @ctx-core/object@22.0.8
+
 ## 12.0.37
 
 ### Patch Changes
