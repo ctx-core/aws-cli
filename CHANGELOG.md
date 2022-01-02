@@ -1,5 +1,13 @@
 # @ctx-core/aws-cli
 
+## 12.0.39
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/child_process@7.0.35
+
 ## 12.0.38
 
 ### Patch Changes
