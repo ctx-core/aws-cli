@@ -38,7 +38,7 @@
 	"dependencies": {
 		"@ctx-core/child_process": "workspace:^7.0.38",
 		"@ctx-core/cli-args": "workspace:^11.0.24",
-		"@ctx-core/object": "workspace:^22.0.12"
+		"@ctx-core/object": "workspace:^22.0.13"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
