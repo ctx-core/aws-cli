@@ -36,9 +36,9 @@
 		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/child_process": "workspace:^7.0.38",
-		"@ctx-core/cli-args": "workspace:^11.0.25",
-		"@ctx-core/object": "workspace:*"
+		"@ctx-core/child_process": "^7.0.38",
+		"@ctx-core/cli-args": "^11.0.25",
+		"@ctx-core/object": "*"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
