@@ -37,7 +37,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/child_process": "^7.0.38",
-		"@ctx-core/cli-args": "^11.0.25",
+		"@ctx-core/cli-args": "^11.0.26",
 		"@ctx-core/object": "*"
 	},
 	"devDependencies": {
