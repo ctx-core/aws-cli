@@ -1,5 +1,13 @@
 # @ctx-core/aws-cli
 
+## 12.0.66
+
+### Patch Changes
+
+- rimraf: ^4.0.1 -> ^4.0.4
+- Updated dependencies
+  - @ctx-core/child_process@7.0.41
+
 ## 12.0.65
 
 ### Patch Changes
