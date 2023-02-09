@@ -1,5 +1,11 @@
 # @ctx-core/aws-cli
 
+## 12.1.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 12.0.76
 
 ### Patch Changes
