@@ -1,5 +1,5 @@
 import { spawn } from 'child_process'
-import { pipe_child_process } from '@ctx-core/child_process'
+import { child_process__pipe } from '@ctx-core/child_process'
 import type { param_dfn_T } from '@ctx-core/cli-args'
 import { cloudformation_package_arg_a_ } from './cloudformation_package_arg_a_.js'
 export async function cloudformation_package_cli(
@@ -11,7 +11,7 @@ export async function cloudformation_package_cli(
 		cloudformation_package_arg_a_(
 			arg_a, value_h_flag_dfn, cancel_a
 		)
-	return pipe_child_process(
+	return child_process__pipe(
 		spawn(
 			'aws2',
 			['cloudformation', 'package', ...pick_default_arg_a]
