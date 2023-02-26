@@ -1,5 +1,15 @@
 # @ctx-core/aws-cli
 
+## 12.1.21
+
+### Patch Changes
+
+- import*meta_env*() instead of process.env
+- sam-build,sam-local-start-api,sam-package: fix: import '../src/index.js'
+- Updated dependencies
+  - @ctx-core/child_process@7.2.14
+  - @ctx-core/env@17.2.18
+
 ## 12.1.20
 
 ### Patch Changes
