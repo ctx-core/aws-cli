@@ -8,4 +8,4 @@ cli_run(async () => {
 		'--s3-bucket': import_meta_env_().AWS_SAM_BUCKET,
 		'--output-template': 'packaged-template.yaml',
 	})
-})
+}).then()

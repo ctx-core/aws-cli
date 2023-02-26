@@ -1,5 +1,11 @@
 # @ctx-core/aws-cli
 
+## 12.1.23
+
+### Patch Changes
+
+- sam-build,sam-package: + .then()
+
 ## 12.1.22
 
 ### Patch Changes

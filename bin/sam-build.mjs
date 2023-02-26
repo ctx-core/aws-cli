@@ -5,4 +5,4 @@ cli_run(async () => {
 	return sam_build_cli(arg_a, {
 		'--template': 'stack-template.yaml',
 	})
-})
+}).then()
