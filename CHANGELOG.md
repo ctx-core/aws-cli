@@ -1,5 +1,11 @@
 # @ctx-core/aws-cli
 
+## 12.1.52
+
+### Patch Changes
+
+- package.json: fix: exports: ./lib=>./src
+
 ## 12.1.51
 
 ### Patch Changes
