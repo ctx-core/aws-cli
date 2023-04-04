@@ -1,11 +1,11 @@
-import { default_arg_a_, pick_arg_a } from '@ctx-core/cli-args'
+import { default_arg_a_, arg_a__pick } from '@ctx-core/cli-args'
 export function describe_log_groups_logs_arg_a_(
 	arg_a,
-	value_h_flag_dfn = {},
+	value_R_flag_dfn = {},
 	cancel_a = ['help']
 ) {
-	return pick_arg_a(
-		default_arg_a_(arg_a, value_h_flag_dfn, cancel_a),
+	return arg_a__pick(
+		default_arg_a_(arg_a, value_R_flag_dfn, cancel_a),
 		'--log-group-name',
 		'--log-group-name-prefix',
 		'--cli-input-json',
