@@ -1,5 +1,11 @@
 # @ctx-core/aws-cli
 
+## 12.1.73
+
+### Patch Changes
+
+- @ctx-core/cli-args: ^11.2.1 -> ^11.3.0
+
 ## 12.1.72
 
 ### Patch Changes
