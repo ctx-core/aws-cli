@@ -1,5 +1,16 @@
 # @ctx-core/aws-cli
 
+## 12.1.98
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/child_process@7.3.29
+  - @ctx-core/cli-args@11.3.21
+  - @ctx-core/env@17.2.83
+  - @ctx-core/object@27.4.23
+
 ## 12.1.97
 
 ### Patch Changes
