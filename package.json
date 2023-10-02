@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/aws-cli",
-	"version": "12.1.150",
+	"version": "12.1.151",
 	"description": "ctx-core aws cli helpers",
 	"keywords": [
 		"ctx-core",
@@ -35,10 +35,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/child_process": "^7.3.79",
-		"@ctx-core/cli-args": "^11.3.39",
-		"@ctx-core/env": "^17.3.7",
-		"@ctx-core/object": "^28.0.7"
+		"@ctx-core/child_process": "^7.3.80",
+		"@ctx-core/cli-args": "^11.3.40",
+		"@ctx-core/env": "^17.3.8",
+		"@ctx-core/object": "^28.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
