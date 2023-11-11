@@ -1,4 +1,4 @@
-import { default_arg_a_, arg_a__pick } from '@ctx-core/cli-args'
+import { arg_a__pick, default_arg_a_ } from '@ctx-core/cli-args'
 export function sam_package_arg_a_(
 	arg_a,
 	value_R_flag_dfn = {},

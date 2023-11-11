@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { cli_run, sam_package_cli, } from '../src/index.js'
 import { import_meta_env_ } from '@ctx-core/env'
+import { cli_run, sam_package_cli, } from '../index.js'
 cli_run(async () => {
 	const arg_a = process.argv.slice(2)
 	return sam_package_cli(arg_a, {

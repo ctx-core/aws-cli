@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/aws-cli",
-	"version": "12.1.162",
+	"version": "12.2.0",
 	"description": "ctx-core aws cli helpers",
 	"keywords": [
 		"ctx-core",
@@ -19,10 +19,39 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts",
+		"./bin",
+		"./cli_run",
+		"./cloudformation_delete_stack_arg_a_fn",
+		"./cloudformation_delete_stack_cli",
+		"./cloudformation_deploy_arg_a_",
+		"./cloudformation_deploy_cli",
+		"./cloudformation_describe_stack_events_arg_a_",
+		"./cloudformation_describe_stack_events_cli",
+		"./cloudformation_describe_stacks_arg_a_",
+		"./cloudformation_describe_stacks_cli",
+		"./cloudformation_package_arg_a_",
+		"./cloudformation_package_cli",
+		"./describe_log_groups_logs_arg_a_",
+		"./describe_log_groups_logs_cli",
+		"./describe_log_streams_logs_arg_a_",
+		"./describe_log_streams_logs_cli",
+		"./env_name_",
+		"./flag_value_",
+		"./get_log_events_logs_arg_a_",
+		"./get_log_events_logs_cli",
+		"./sam_build_arg_a_",
+		"./sam_build_cli",
+		"./sam_local_start_api_arg_a_",
+		"./sam_local_start_api_cli",
+		"./sam_package_arg_a_",
+		"./sam_package_cli",
+		"./stage_"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -35,10 +64,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/child_process": "^7.3.91",
-		"@ctx-core/cli-args": "^11.3.46",
-		"@ctx-core/env": "^17.3.19",
-		"@ctx-core/object": "^30.0.0"
+		"@ctx-core/child_process": "^7.4.0",
+		"@ctx-core/cli-args": "^11.4.0",
+		"@ctx-core/env": "^17.4.0",
+		"@ctx-core/object": "^30.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",

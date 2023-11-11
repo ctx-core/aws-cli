@@ -1,5 +1,27 @@
 # @ctx-core/aws-cli
 
+## 12.2.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/child_process@7.4.0
+  - @ctx-core/cli-args@11.4.0
+  - @ctx-core/env@17.4.0
+  - @ctx-core/object@30.1.0
+
 ## 12.1.162
 
 ### Patch Changes
