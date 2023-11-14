@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/aws-cli",
-	"version": "12.2.1",
+	"version": "12.2.2",
 	"description": "ctx-core aws cli helpers",
 	"keywords": [
 		"ctx-core",
@@ -21,6 +21,7 @@
 	"type": "module",
 	"files": [
 		"*.d.ts",
+		"*.json",
 		"./bin",
 		"./cli_run",
 		"./cloudformation_delete_stack_arg_a_fn",
@@ -64,10 +65,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/child_process": "^7.4.2",
-		"@ctx-core/cli-args": "^11.4.1",
-		"@ctx-core/env": "^17.4.1",
-		"@ctx-core/object": "^30.1.1"
+		"@ctx-core/child_process": "^7.4.3",
+		"@ctx-core/cli-args": "^11.4.2",
+		"@ctx-core/env": "^17.4.2",
+		"@ctx-core/object": "^30.1.2"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
