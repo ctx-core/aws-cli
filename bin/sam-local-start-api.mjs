@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { import_meta_env_ } from '@ctx-core/env'
+import { import_meta_env_ } from 'ctx-core/env'
 import { cli_run, sam_local_start_api_cli, } from '../index.js'
 cli_run(async () => {
 	const arg_a = process.argv.slice(2)

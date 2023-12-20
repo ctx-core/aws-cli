@@ -1,4 +1,4 @@
-import { arg_a__pick, default_arg_a_ } from '@ctx-core/cli-args'
+import { arg_a__pick, default_arg_a_ } from 'ctx-core/cli-args'
 export function cloudformation_delete_stack_arg_a_fn(
 	arg_a,
 	value_R_flag_dfn = {},

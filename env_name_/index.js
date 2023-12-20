@@ -1,4 +1,4 @@
-import { import_meta_env_ } from '@ctx-core/env'
+import { import_meta_env_ } from 'ctx-core/env'
 import { flag_value_ } from '../flag_value_/index.js'
 export function env_name_(arg_a) {
 	const env_name =
