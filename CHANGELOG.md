@@ -1,5 +1,14 @@
 # @ctx-core/aws-cli
 
+## 12.2.94
+
+### Patch Changes
+
+- import nodejs core modules using node: prefix
+- Updated dependencies
+  - @ctx-core/child_process@7.4.94
+  - ctx-core@5.18.8
+
 ## 12.2.93
 
 ### Patch Changes

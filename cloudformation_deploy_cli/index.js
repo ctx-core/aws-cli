@@ -1,5 +1,5 @@
 import { child_process__pipe } from '@ctx-core/child_process'
-import { spawn } from 'child_process'
+import { spawn } from 'node:child_process'
 import { cloudformation_deploy_arg_a_ } from '../cloudformation_deploy_arg_a_/index.js'
 export async function cloudformation_deploy_cli(
 	arg_a,

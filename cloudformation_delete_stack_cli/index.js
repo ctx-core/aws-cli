@@ -1,5 +1,5 @@
 import { child_process__pipe } from '@ctx-core/child_process'
-import { spawn } from 'child_process'
+import { spawn } from 'node:child_process'
 import { cloudformation_delete_stack_arg_a_fn } from '../cloudformation_delete_stack_arg_a_fn/index.js'
 export async function cloudformation_delete_stack_cli(
 	arg_a,

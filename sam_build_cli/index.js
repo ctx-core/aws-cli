@@ -1,5 +1,5 @@
 import { child_process__pipe } from '@ctx-core/child_process'
-import { spawn } from 'child_process'
+import { spawn } from 'node:child_process'
 import { sam_build_arg_a_ } from '../sam_build_arg_a_/index.js'
 export async function sam_build_cli(
 	arg_a,

@@ -1,5 +1,5 @@
 import { child_process__pipe } from '@ctx-core/child_process'
-import { spawn } from 'child_process'
+import { spawn } from 'node:child_process'
 import { describe_log_groups_logs_arg_a_ } from '../describe_log_groups_logs_arg_a_/index.js'
 export async function describe_log_groups_logs_cli(
 	arg_a,
