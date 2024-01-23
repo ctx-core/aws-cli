@@ -68,7 +68,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/child_process": "^7.4.112",
-		"ctx-core": "^5.27.0"
+		"ctx-core": "^5.27.1"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
