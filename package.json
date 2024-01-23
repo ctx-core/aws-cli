@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/aws-cli",
-	"version": "12.2.113",
+	"version": "12.2.114",
 	"description": "ctx-core aws cli helpers",
 	"keywords": [
 		"ctx-core",
@@ -67,8 +67,8 @@
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/child_process": "^7.4.113",
-		"ctx-core": "^5.27.2"
+		"@ctx-core/child_process": "^7.4.114",
+		"ctx-core": "^5.28.1"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
