@@ -1,5 +1,13 @@
 # @ctx-core/aws-cli
 
+## 12.2.134
+
+### Patch Changes
+
+- ctx-core: ^5.38.0 -> ^5.38.1
+- Updated dependencies
+  - @ctx-core/child_process@7.4.134
+
 ## 12.2.133
 
 ### Patch Changes
