@@ -1,5 +1,14 @@
 # @ctx-core/aws-cli
 
+## 12.2.162
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - @ctx-core/child_process@7.4.162
+  - ctx-core@6.6.1
+
 ## 12.2.161
 
 ### Patch Changes
