@@ -1,5 +1,14 @@
 # @ctx-core/aws-cli
 
+## 12.2.214
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - @ctx-core/child_process@7.4.214
+  - ctx-core@7.2.34
+
 ## 12.2.213
 
 ### Patch Changes
